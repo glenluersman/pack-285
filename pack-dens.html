@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/typewriter-font/stylesheet.css" type="text/css" charset="utf-8" />    
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/troop-roster-style.css">
+    <title>Pack Dens</title>
+  </head>
+  <body>
+    <header>            
+      <div class="logo">
+        <img src="./assets/images/Cub_Scout_Logo.png" alt="pack 285 logo">
+      </div>
+      <div class="motto">
+        <h1>Do Your Best</h1>
+      </div>
+      <div class="soup-the-turtle">
+        <a href="./history-of-soup.html" title="History Of Soup">
+            <img src="./assets/images/Cub_Scout_Trio.png" alt="cub scout trio">
+        </a>
+      </div>
+    </header>
+    <nav>
+      <div class="nav-menu">
+        <a href="index.html">Home</a>   
+        <a href="events.html">Events</a>           
+        <a href="photos.html">Photos</a>                
+        <a href="pack-dens.html">Pack Dens</a>
+        <a href="resources.html">Resources</a>
+        <a href="https://cubscoutpack285.com/index/#contact-us">Contact Us</a>
+      </div>
+    </nav>
+    <section>
+      <div id="myMobilenav" class="mobilenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>   
+        <a href="events.html">Events</a>           
+        <a href="photos.html">Photos</a>                
+        <a href="pack-dens.html">Pack Dens</a>
+        <a href="resources.html">Resources</a>
+        <a href="https://cubscoutpack285.com/index/#contact-us">Contact Us</a>           
+      </div>
+      <div id="main">
+        <span onclick="openNav()">&#9776; Menu</span>
+      </div>
+    </section>
+    <section class="title">
+      <h2 class="section-title">Troop Roster</h2>
+      <div class="category">
+        <a href="#cards" onclick="createCards(key3)">Key 3</a>
+        <a href="#cards" onclick="createCards(seniorPatrol)">SPL & ASPL</a>
+        <a href="#cards" onclick="createCards(fancyFishes)">Fancy Fishes Patrol</a>
+        <a href="#cards" onclick="createCards(wetBandits)">Wet Bandits Patrol</a>
+        <a href="#cards" onclick="createCards(fireChickens)">Fire Chickens Patrol</a>
+        <a href="#cards" onclick="createCards(turtles)">Turtles Patrol</a>
+        <!-- <a href="#cards" onclick="createCards(flyingFoxes)">Flying Foxes Patrol</a> -->
+        <a href="#cards" onclick="createCards(scoutMasters)">Assistant Scoutmasters</a>
+        <a href="#cards" onclick="createCards(committee)">Committee Members</a>
+      </div>
+    </section>
+    <div class="cards" id="cards"></div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+    <footer>
+      <p>&copy;Pack 285 Tipp City, Ohio 2024</p>
+      <p><a href="https://miamivalleybsa.org/">Miami Valley Council</a> | <a href="https://www.facebook.com/tworiversmvc/">Two Rivers District</a></p>
+      <p>Special thanks to <a href="https://miamicountyymca.net/">Miami County YMCA - Robinson Branch</a> for supporting our troop and allowing us to use their facilities.</p>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/troop-roster.js"></script>
+  </body>
+</html>

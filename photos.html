@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/typewriter-font/stylesheet.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script async src="https://kit.fontawesome.com/6cc05e1e8e.js" 
+    crossorigin="anonymous"></script>
+    <title>Photos</title>
+  </head>
+  <body>
+    <header>            
+      <div class="logo">
+        <img src="./assets/images/Cub_Scout_Logo.png" alt="pack 285 logo">
+      </div>
+      <div class="motto">
+        <h1>Do Your Best</h1>
+      </div>
+      <div class="soup-the-turtle">
+        <a href="./history-of-soup.html" title="History Of Soup">
+          <img src="./assets/images/Cub_Scout_Trio.png" alt="cub scout trio">
+        </a>
+      </div>
+    </header>
+    <nav>
+      <div class="nav-menu">
+        <a href="index.html">Home</a>   
+        <a href="events.html">Events</a>           
+        <a href="photos.html">Photos</a>                
+        <a href="pack-dens.html">Pack Dens</a>
+        <a href="resources.html">Resources</a>
+        <a href="https://cubscoutpack285.com/index/#contact-us">Contact Us</a>
+      </div>
+    </nav>
+    <section>
+      <div id="myMobilenav" class="mobilenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>   
+        <a href="events.html">Events</a>           
+        <a href="photos.html">Photos</a>                
+        <a href="pack-dens.html">Pack Dens</a>
+        <a href="resources.html">Resources</a>
+        <a href="https://cubscoutpack285.com/index/#contact-us">Contact Us</a>           
+      </div>
+      <div id="main">
+        <span onclick="openNav()">&#9776; Menu</span>
+      </div>
+    </section>
+    <section class="title">
+      <h2 class="section-title">Photos</h2>
+    </section>
+    <section class="year">
+      <h2>Year 2024</h2>
+    </section>
+      <div class="category">
+        <a href="#gallery" onclick="renderPhotos(TOB24)">Tobogganing</a>
+        <a href="#gallery" onclick="renderPhotos(CO28524)">Pack 285 Crossover</a>
+        <a href="#gallery" onclick="renderPhotos(SS24)">Scout Sunday</a>
+        <a href="#gallery" onclick="renderPhotos(RLFA24)">Real Life First Aid</a>
+        <a href="#gallery" onclick="renderPhotos(SFF24)">Scouting For Food</a>
+        <a href="#gallery" onclick="renderPhotos(IFLY24)">Indoor Skydiving</a>
+        <a href="#gallery" onclick="renderPhotos(Fish24)">Fishing/Chenoweth Trails</a>
+        <a href="#gallery" onclick="renderPhotos(MD24)">Memorial Day</a>
+        <a href="#gallery" onclick="renderPhotos(Gaga24)">Gaga ball pit build</a>
+        <a href="#gallery" onclick="renderPhotos(SCD024)">Summer Camp Day 0</a>
+        <a href="#gallery" onclick="renderPhotos(SCD124)">Summer Camp Day 1</a>
+        <a href="#gallery" onclick="renderPhotos(SCD224)">Summer Camp Day 2</a>
+        <a href="#gallery" onclick="renderPhotos(SCD324)">Summer Camp Day 3</a>
+        <a href="#gallery" onclick="renderPhotos(SCD424)">Summer Camp Day 4</a>
+        <a href="#gallery" onclick="renderPhotos(SCD524)">Summer Camp Day 5</a>
+      </div>
+    <section class="year">
+      <h2>Year 2023</h2>
+    </section>
+      <div class="category">
+        <a href="#gallery" onclick="renderPhotos(rlfa23)">Real Life First Aid</a>
+        <a href="#gallery" onclick="renderPhotos(CO28523)">Pack 285 Crossover</a>
+        <a href="#gallery" onclick="renderPhotos(SS23)">Scout Sunday</a>
+        <a href="#gallery" onclick="renderPhotos(MC23)">Marengo Caves</a>
+        <a href="#gallery" onclick="renderPhotos(SFF23)">Scouting For Food</a>
+        <a href="#gallery" onclick="renderPhotos(BP23)">Backpacking</a>
+        <a href="#gallery" onclick="renderPhotos(WS23)">Wilderness Survival</a>
+        <a href="#gallery" onclick="renderPhotos(MD23)">Memorial Day</a>
+        <a href="#gallery" onclick="renderPhotos(SCD0)">Summer Camp Day 0</a>
+        <a href="#gallery" onclick="renderPhotos(SCD1)">Summer Camp Day 1</a>
+        <a href="#gallery" onclick="renderPhotos(SCD2)">Summer Camp Day 2</a>
+        <a href="#gallery" onclick="renderPhotos(SCD3)">Summer Camp Day 3</a>
+        <a href="#gallery" onclick="renderPhotos(SCD4)">Summer Camp Day 4</a>
+        <a href="#gallery" onclick="renderPhotos(SCD5)">Summer Camp Day 5</a>
+        <a href="#gallery" onclick="renderPhotos(BEP23)">Brighton's Eagle Project Phase 1</a>
+        <a href="#gallery" onclick="renderPhotos(C23)">Cycling</a>
+        <a href="#gallery" onclick="renderPhotos(JCH23)">July Court of Honor</a>
+        <a href="#gallery" onclick="renderPhotos(GEC23)">Gavyn's Eagle Court of Honor</a>
+        <a href="#gallery" onclick="renderPhotos(CT23)">Fishing/Chenoweth Trails</a>
+        <a href="#gallery" onclick="renderPhotos(BEP232)">Brighton's Eagle Project Phase 2</a>
+        <a href="#gallery" onclick="renderPhotos(Mum23)">Mum Festival</a>
+        <a href="#gallery" onclick="renderPhotos(IC23)">Indoor Climbing</a>
+        <a href="#gallery" onclick="renderPhotos(FP23)">Fire Pit Build</a>
+        <a href="#gallery" onclick="renderPhotos(TB23)">Turkey Bowl</a>
+        <a href="#gallery" onclick="renderPhotos(AP23)">Annual Planning</a>
+        <a href="#gallery" onclick="renderPhotos(DCH23)">December Court of Honor</a>
+      </div>
+    <section class="main">
+    <div class="gallery" id="gallery"></div>       
+    </section>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+    <footer>
+      <p>&copy;Cub Scout Pack 285 Tipp City, Ohio 2024</p>
+      <p><a href="https://miamivalleybsa.org/">Miami Valley Council</a> | <a href="https://www.facebook.com/tworiversmvc/">Two Rivers District</a></p>
+      <p>Special thanks to <a href="https://miamicountyymca.net/">Miami County YMCA - Robinson Branch</a> for supporting our troop and allowing us to use their facilities.</p>
+    </footer>
+    <script src="./assets/js/photos.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
