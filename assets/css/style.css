@@ -1,9 +1,10 @@
 /* General Styles */
 :root {
   --primary-color: #111;
-  --secondary-color: #818181;
+  --secondary-color: #f0eae8;
   --tertiary-color: #3c3a3a;
   --quaternary-color: #003583;
+  --quinary-color: #f7d210;
 }
 
 * {
@@ -22,7 +23,7 @@ body {
 }
 
 .section-title {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   word-wrap: break-word;
   border-bottom: 3px solid;
   text-align: center;
@@ -62,6 +63,7 @@ header {
 }
 
 .motto {
+  color: var(--secondary-color);
   font-size: 45px;
   text-align: center;
 }
@@ -83,7 +85,7 @@ header {
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 30px;
-  background-color: #f7d210;
+  background-color: var(--quinary-color);
 }
 
 .nav-menu a {
@@ -105,7 +107,7 @@ header {
   height: 575px !important;
   margin-bottom: 480px;
   bottom: 0;
-  background-color: var(--primary-color);
+  background-color: var(--quinary-color);
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -116,13 +118,14 @@ header {
   text-align: center;
   padding: 15px;
   font-size: 25px;
-  color: white;
+  font-weight: 600;
+  color: var(--primary-color);
   display: block;
   transition: 0.3s;
 }
 
 .mobilenav a:hover {
-  color: var(--secondary-color);
+  color: var(--quaternary-color);
 }
 
 .mobilenav .closebtn {
@@ -138,12 +141,11 @@ header {
   align-items: center;
   font-size: 30px;
   font-weight: 600;
-  color: white;
+  color: var(--primary-color);
   width: 100%;
   height: 60px;
   margin-bottom: 30px;
-  border: 2px solid var(--primary-color);
-  background-color: #111;
+  background-color: var(--quinary-color);
   transition: 0.3s ease-in-out;
 }
 
@@ -434,10 +436,11 @@ footer a {
 .hero-cta h2 {
   margin-bottom: 20px;
   font-size: 45px;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .hero-cta p {
+  color: var(--secondary-color);
   max-width: 1100px;
   font-size: 25px;
   font-weight: 600;
@@ -470,6 +473,7 @@ footer a {
 }
 
 .links h4 {
+  color: var(--secondary-color);
   font-size: 35px;
   text-align: center;
   padding-bottom: 15px;
@@ -545,13 +549,13 @@ footer a {
 }
 
 .contact-form button:hover {
-  background: var(--secondary-color);
+  background: #B6B2B1;
 }
 
 .contact-form h3 {
   margin: 25px;
   font-size: 45px;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 /* End Contact Form Styles */
 
@@ -562,6 +566,7 @@ footer a {
 }
 
 .year h2 {
+  color: var(--secondary-color);
   font-size: 65px;
 }
 
