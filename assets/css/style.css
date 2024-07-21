@@ -3,7 +3,7 @@
   --primary-color: #111;
   --secondary-color: #f0eae8;
   --tertiary-color: #3c3a3a;
-  --quaternary-color: #003583;
+  --quaternary-color: #012A67;
   --quinary-color: #f7d210;
 }
 
@@ -68,12 +68,11 @@ header {
   text-align: center;
 }
 
-.soup-the-turtle img {
+.cub-scout-trio img {
   width: auto;
   height: 150px;
 }
 /* End Header Styles */
-
 
 /* Navbar Styles */
 .nav-menu {
@@ -198,10 +197,6 @@ footer a {
   color: var(--quaternary-color);
 }
 
-.dance {
-  color: white;
-}
-
 .slogan {
   float: right;
 }
@@ -295,56 +290,6 @@ footer a {
   color: var(--secondary-color);
 }
 
-.mumfest {
-  display: none;
-  width: 80%;
-  margin: 0 auto 50px auto;
-  box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
-}
-
-.mumfest img {
-  width: 400px;
-  height: 100%;
-}
-
-.mum-sales {
-  background-color: var(--quaternary-color);
-}
-
-.mum-sales h2 {
-  margin: 10px;
-  text-align: center;
-  font-size: 35px;
-}
-
-.mum-sales p {
-  text-align: center;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 28px;
-  margin-bottom: 15px;
-  padding: 5px;
-}
-
-.mum-sales p span {
-  margin-left: 20px;
-  font-size: 18px;
-}
-
-.mum-sales a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  background-color: #111;
-  font-size: 20px;
-  margin: 20px auto 20px auto;
-  padding: 10px;
-  box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
-}
-
 .button {
   width: 225px;
   height: 55px;
@@ -362,57 +307,24 @@ footer a {
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
 }
 
-.troop-flyer {
+.pack-flyer {
   display: flex;
   justify-content: center;
 }
 
-.troop-flyer img {
+.pack-flyer img {
   width: 80%;
   height: auto;
   margin: 50px;
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
 }
 
-.leader h2 {
-  color: var(--primary-color);
-  word-wrap: break-word;
-  border-bottom: 3px solid;
-  text-align: center;
-  margin: 35px auto 35px auto;
-  width: 50%;
-  font-size: 40px;
-}
-
-.leadership {
-  align-self: center;
-  margin-bottom: 40px;
-}
-
-.leadership h3 {
-  text-align: center;
-  font-size: 35px;
-}
-
-.leadership img {
-  width: 300px;
-  height: auto;
-  margin: 10px;
-  box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
-}
-
-.troop-title {
-  margin-top: 30px;
-  text-align: center;
-  font-size: 45px;
-}
-
-.troop-photo {
+.pack-photo {
   text-align: center;
   margin-top: 50px;
 }
 
-.troop-photo img {
+.pack-photo img {
   width: auto;
   height: 400px;
   margin: 15px;
@@ -545,11 +457,13 @@ footer a {
   margin: 15px auto 15px auto;
   font-size: 20px;
   font-weight: 600;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
+  transition: 0.3s ease-in-out;
   font-family: 'secret_typewriterregular';
 }
 
 .contact-form button:hover {
-  background: #B6B2B1;
+  transform: scale(1.05);
 }
 
 .contact-form h3 {
@@ -717,6 +631,7 @@ footer a {
 .gallery-item img:hover {
   transform: scale(1.1);
 }
+/* End Photo Styles */
 
 /*Image modal*/
 .modal {
@@ -767,7 +682,6 @@ footer a {
   color: rgb(255, 255, 255);
 }
 /* End Image modal */
-/* End Photo Styles */
 
 /* Roster Styles */
 .cards-title {
@@ -841,12 +755,6 @@ footer a {
   text-align: center;
 }
 
-.forms-cook {
-  display: grid;
-  grid-column: auto;
-  text-align: center;
-}
-
 .forms h3 {
   font-size: 35px;
   margin: 30px;
@@ -860,19 +768,7 @@ footer a {
   color: var(--primary-color);
 }
 
-.forms-cook a {
-  text-decoration: none;
-  font-size: 23px;
-  font-weight: 600;
-  margin-bottom: 10px;
-  color: var(--primary-color);
-}
-
 .forms a:hover {
-  color: var(--secondary-color);
-}
-
-.forms-cook a:hover {
   color: var(--secondary-color);
 }
 
@@ -882,151 +778,10 @@ footer a {
   transition: 0.3s ease-in-out;
 }
 
-.forms-cook img {
-  width: 250px;
-  height: 300px;
-  transition: 0.3s ease-in-out;
-}
-
 .forms img:hover {
   transform: scale(1.1);
 }
-
-.forms-cook img:hover {
-  transform: scale(1.1);
-}
 /* End Troop Forms Styles */
-
-/* History of Soup Styles */
-.history {
-  display: flex;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.history p {
-  max-width: 600px;
-  font-size: 25px;
-  font-weight: 600;
-  line-height: 32px;
-  text-align: center;
-  margin: auto;
-}
-
-.soup {
-  font-size: 35px;
-  text-align: center;
-  border-bottom: 1px solid #111;
-}
-
-.turtle {
-  text-align: center;
-  display: none;
-}
-/* End History of Soup Styles */
-
-/* Eagle Scouts Styles */
-.eagle-oath {
-  text-align: center;
-  margin: 60px auto;
-}
-
-.eagle-oath img {
-  max-width: 600px;
-  box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
-}
-
-.eagle-scouts {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  text-align: center;
-  width: 80%;
-  margin: 0 auto;
-}
-
-.eagle-scouts h3 {
-  font-size: 35px;
-  font-weight: 600;
-}
-
-.eagle-scouts p {
-  font-size: 25px;
-  font-weight: 600;
-  margin: 10px;
-}
-
-.eagle-scouts div {
-  margin: 20px;
-}
-/* End Eagle Scouts Styles */
-
-/* Start Newsletter Styles */
-.newsletter {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.newsletter h2 {
-  text-align: center;
-  font-size: 35px;
-  padding: 20px;
-}
-
-.news {
-  padding: 20px;
-}
-
-.newsImg a {
-  width: 300px;
-  height: 300px;
-}
-
-.newsImg img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 300px;
-  height: 300px;
-  transition: 0.3s ease-in-out;
-}
-
-.newsImg img:hover {
-  transform: scale(1.1);
-}
-/* End Newsletter Styles */
-
-/* Start Merit Badge Counselors styles */
-.merit {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.counselor {
-  padding: 15px;
-  margin: 30px;
-  box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
-}
-
-.counselor h3 {
-  text-align: center;
-  margin: 30px;
-  font-size: 30px;
-}
-
-.counselor li {
-  text-align: left;
-  font-size: 25px;
-  margin: 15px;
-}
-/* End Merit Badge Counselors styles */
 
 @media screen and (max-width: 1050px) {
   .mumfest {
@@ -1078,7 +833,7 @@ footer a {
     font-size: 35px;
   }
 
-  .soup-the-turtle img {
+  .cub-scout-trio img {
     height: 150px;
   }
 
