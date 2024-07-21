@@ -23,7 +23,7 @@ body {
 }
 
 .section-title {
-  color: var(--secondary-color);
+  color: var(--quinary-color);
   word-wrap: break-word;
   border-bottom: 3px solid;
   text-align: center;
@@ -63,7 +63,7 @@ header {
 }
 
 .motto {
-  color: var(--secondary-color);
+  color: var(--quinary-color);
   font-size: 45px;
   text-align: center;
 }
@@ -218,7 +218,7 @@ footer a {
   text-align: center;
   font-size: 35px;
   font-weight: 700;
-  color: var(--primary-color);
+  color: var(--quinary-color);
   margin: 15px;
   transition: 0.3s;
   cursor: pointer;
@@ -348,11 +348,11 @@ footer a {
 .hero-cta h2 {
   margin-bottom: 20px;
   font-size: 45px;
-  color: var(--secondary-color);
+  color: var(--quinary-color);
 }
 
 .hero-cta p {
-  color: var(--secondary-color);
+  color: var(--quinary-color);
   max-width: 1100px;
   font-size: 25px;
   font-weight: 600;
@@ -385,7 +385,7 @@ footer a {
 }
 
 .links h4 {
-  color: var(--secondary-color);
+  color: var(--quinary-color);
   font-size: 35px;
   text-align: center;
   padding-bottom: 15px;
@@ -469,7 +469,7 @@ footer a {
 .contact-form h3 {
   margin: 25px;
   font-size: 45px;
-  color: var(--secondary-color);
+  color: var(--quinary-color);
 }
 /* End Contact Form Styles */
 
@@ -480,7 +480,7 @@ footer a {
 }
 
 .year h2 {
-  color: var(--secondary-color);
+  color: var(--quinary-color);
   font-size: 65px;
 }
 
@@ -521,16 +521,16 @@ footer a {
 }
 
 .content a {
-	color: var(--primary-color);
   text-decoration: none;
 	cursor: pointer;
   font-size: 25px;
   font-weight: 600;
   margin: auto 0 0 10px;
+  color: var(--primary-color);
 }
 
 .content a:hover {
-  color: var(--secondary-color);
+  color: var(--quaternary-color);
 }
 
 .eventImg a {
@@ -563,6 +563,7 @@ footer a {
   width: 75%;
   height: auto;
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
+  background-color: var(--quinary-color);
 }
 
 .left {
@@ -756,6 +757,7 @@ footer a {
 }
 
 .forms h3 {
+  color: var(--quinary-color);
   font-size: 35px;
   margin: 30px;
 }
@@ -765,7 +767,7 @@ footer a {
   font-size: 23px;
   font-weight: 600;
   margin-bottom: 10px;
-  color: var(--primary-color);
+  color: var(--quinary-color);
 }
 
 .forms a:hover {
@@ -784,41 +786,34 @@ footer a {
 /* End Troop Forms Styles */
 
 @media screen and (max-width: 1050px) {
-  .mumfest {
-    width: 95%;
-  }
-
+  
   .troop-store {
     flex-direction: column;
   }
 
-  #logo {
+  .logo {
     order: 1;
   }
 
-  #soup {
+  .cub-scout-trio {
     order: 2;
   }
 
-  #text {
+  .motto {
     order: 3;
-  }
-
-  #hat {
-    order: 4;
   }
 }
 
 @media screen and (max-width: 1020px){
-  #logo {
+  .logo {
     order: 1;
   }
 
-  #soup {
+  .cub-scout-trio {
     order: 2;
   }
 
-  #text {
+  .motto {
     order: 3;
   }
 }
@@ -883,10 +878,6 @@ footer a {
     width: 100%;
     float: none;
   }
-
-  .eagle-scouts {
-    grid-template-columns: 33.333333% 33.333333% 33.333333%;
-  }
 }
 /* END MEDIA QUERY FOR SCREENS 980PX AND SMALLER */
 
@@ -904,24 +895,9 @@ footer a {
     width: auto;
   }
 
-  .mumfest {
-    flex-direction: column;
-  }
-
-  .mumfest img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  }
-
   .button-new {
     width: 65%;
   }
-
-  /* .troop-photo img {
-    width: 95%;
-  } */
 }
 /* END MEDIA QUERY FOR SCREENS 768PX AND SMALLER */
 
@@ -947,11 +923,7 @@ footer a {
     width: 90%;
   }
 
-  .girl-troop img {
-    width: 95%;
-  }
-
-  .troop-photo img {
+  .pack-photo img {
     height: auto;
     width: 95%;
   }
@@ -1004,21 +976,8 @@ footer a {
     height: auto;
   }
 
-  .history p {
-    margin: 20px;
-  }
-
   .forms img {
     width: 90%;
-  }
-
-  .eagle-scouts {
-    width: 95%;
-    grid-template-columns: 50% 50%;
-  }
-
-  .eagle-oath img {
-    max-width: 300px;
   }
 
   .slogan {
