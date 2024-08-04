@@ -62,9 +62,15 @@ header {
   width: auto;
 }
 
+.pack {
+  color: var(--quinary-color);
+  font-size: 35px;
+  text-align: center;
+}
+
 .motto {
   color: var(--quinary-color);
-  font-size: 45px;
+  font-size: 35px;
   text-align: center;
 }
 
@@ -201,33 +207,6 @@ footer a {
   float: right;
 }
 /* Footer Styles */
-
-/* Category Styles */
-.category {
-  display: flex;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-.category a {
-  text-decoration: none;
-  text-align: center;
-  font-size: 35px;
-  font-weight: 700;
-  color: var(--quinary-color);
-  margin: 15px;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-.category a:hover {
-  color: var(--secondary-color);
-}
-/* End Category Styles */
 
 /* Hero Section Styles */
 .hero {
@@ -684,6 +663,42 @@ footer a {
 }
 /* End Image modal */
 
+/* Category Styles */
+.category {
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.category a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  color: var(--quinary-color);
+  margin: 15px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.category a:hover {
+  color: var(--secondary-color);
+}
+
+.category img {
+  height: 250px;
+  transition: 0.3s;
+}
+
+.category img:hover {
+  transform: scale(1.1);
+}
+/* End Category Styles */
+
 /* Roster Styles */
 .cards-title {
   font-size: 36px;
@@ -707,7 +722,7 @@ footer a {
   box-sizing: border-box;
   text-align: center;
   color: var(--primary-color);
-  background-color: white;
+  background-color: var(--quinary-color);
   width: 300px;
   margin: 20px;
   padding: 20px;
@@ -785,36 +800,16 @@ footer a {
 }
 /* End Troop Forms Styles */
 
+/* @media screen and (max-width: 1124px) {
+  .motto {
+    order: 3;
+  }
+} */
+
 @media screen and (max-width: 1050px) {
   
   .troop-store {
     flex-direction: column;
-  }
-
-  .logo {
-    order: 1;
-  }
-
-  .cub-scout-trio {
-    order: 2;
-  }
-
-  .motto {
-    order: 3;
-  }
-}
-
-@media screen and (max-width: 1020px){
-  .logo {
-    order: 1;
-  }
-
-  .cub-scout-trio {
-    order: 2;
-  }
-
-  .motto {
-    order: 3;
   }
 }
 
@@ -881,6 +876,12 @@ footer a {
 }
 /* END MEDIA QUERY FOR SCREENS 980PX AND SMALLER */
 
+@media screen and (max-width: 956px) {
+  .motto {
+    order: 3;
+  }
+}
+
 /* MEDIA QUERY FOR SCREENS 768PX AND SMALLER */
 @media screen and (max-width: 768px) {
   .section-title {
@@ -902,7 +903,7 @@ footer a {
 /* END MEDIA QUERY FOR SCREENS 768PX AND SMALLER */
 
 /* MEDIA QUERY FOR SCREENS 685PX AND SMALLER */
-@media screen and (max-width: 685px) {
+@media screen and (max-width: 708px) {
   .motto {
     order: 3;
   }
@@ -988,7 +989,6 @@ footer a {
 
 /* MEDIA QUERY FOR SCREENS 400PX AND SMALLER */
 @media screen and (max-width: 400px) {
-  
 
   .links  img {
     width: 75%;
